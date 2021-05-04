@@ -1,0 +1,158 @@
+{
+  "vk": [
+    {
+      "id": 1,
+      "logo": "https://vk.com/images/community_200.png?ava=1",
+      "status": "enabled",
+      "title": "getUNIQ",
+      "type": "vk",
+      "url": "https://vk.com/getuniqme"
+    },
+    {
+      "id": 2,
+      "logo": "https://vk.com/images/community_200.png?ava=1",
+      "status": "error",
+      "title": "getUNIQ",
+      "type": "vk",
+      "url": "https://vk.com/getuniqme"
+    },
+    {
+      "id": 3,
+      "logo": "https://vk.com/images/community_200.png?ava=1",
+      "status": "pending",
+      "title": "getUNIQ",
+      "type": "vk",
+      "url": "https://vk.com/getuniqme"
+    }
+  ],
+  "ok": [
+    {
+      "id": 4,
+      "logo": "https://vk.com/images/community_200.png?ava=1",
+      "status": "enabled",
+      "title": "getUNIQ",
+      "type": "ok",
+      "url": "https://vk.com/getuniqme"
+    },
+    {
+      "id": 5,
+      "logo": "https://vk.com/images/community_200.png?ava=1",
+      "status": "error",
+      "title": "getUNIQ",
+      "type": "ok",
+      "url": "https://vk.com/getuniqme"
+    },
+    {
+      "id": 6,
+      "logo": "https://vk.com/images/community_200.png?ava=1",
+      "status": "pending",
+      "title": "getUNIQ",
+      "type": "ok",
+      "url": "https://vk.com/getuniqme"
+    }
+  ],
+  "telegram": [
+    {
+      "id": 7,
+      "logo": "https://vk.com/images/community_200.png?ava=1",
+      "status": "enabled",
+      "title": "getUNIQ",
+      "type": "telegram",
+      "url": "https://vk.com/getuniqme"
+    },
+    {
+      "id": 8,
+      "logo": "https://vk.com/images/community_200.png?ava=1",
+      "status": "error",
+      "title": "getUNIQ",
+      "type": "telegram",
+      "url": "https://vk.com/getuniqme"
+    },
+    {
+      "id": 9,
+      "logo": "https://vk.com/images/community_200.png?ava=1",
+      "status": "pending",
+      "title": "getUNIQ",
+      "type": "telegram",
+      "url": "https://vk.com/getuniqme"
+    }
+  ],
+  "facebook": [
+    {
+      "id": 10,
+      "logo": "https://vk.com/images/community_200.png?ava=1",
+      "status": "enabled",
+      "title": "getUNIQ",
+      "type": "facebook",
+      "url": "https://vk.com/getuniqme"
+    },
+    {
+      "id": 11,
+      "logo": "https://vk.com/images/community_200.png?ava=1",
+      "status": "error",
+      "title": "getUNIQ",
+      "type": "facebook",
+      "url": "https://vk.com/getuniqme"
+    },
+    {
+      "id": 12,
+      "logo": "https://vk.com/images/community_200.png?ava=1",
+      "status": "pending",
+      "title": "getUNIQ",
+      "type": "facebook",
+      "url": "https://vk.com/getuniqme"
+    }
+  ],
+  "twitter": [
+    {
+      "id": 13,
+      "logo": "https://vk.com/images/community_200.png?ava=1",
+      "status": "enabled",
+      "title": "getUNIQ",
+      "type": "twitter",
+      "url": "https://vk.com/getuniqme"
+    },
+    {
+      "id": 14,
+      "logo": "https://vk.com/images/community_200.png?ava=1",
+      "status": "error",
+      "title": "getUNIQ",
+      "type": "twitter",
+      "url": "https://vk.com/getuniqme"
+    },
+    {
+      "id": 15,
+      "logo": "https://vk.com/images/community_200.png?ava=1",
+      "status": "pending",
+      "title": "getUNIQ",
+      "type": "twitter",
+      "url": "https://vk.com/getuniqme"
+    }
+  ],
+  "instagram": [
+    {
+      "id": 16,
+      "logo": "https://vk.com/images/community_200.png?ava=1",
+      "status": "enabled",
+      "title": "getUNIQ",
+      "type": "instagram",
+      "url": "https://vk.com/getuniqme"
+    },
+    {
+      "id": 17,
+      "logo": "https://vk.com/images/community_200.png?ava=1",
+      "status": "error",
+      "title": "getUNIQ",
+      "type": "instagram",
+      "url": "https://vk.com/getuniqme"
+    },
+    {
+      "id": 18,
+      "logo": "https://vk.com/images/community_200.png?ava=1",
+      "status": "pending",
+      "title": "getUNIQ",
+      "type": "instagram",
+      "url": "https://vk.com/getuniqme"
+    }
+  ]
+}

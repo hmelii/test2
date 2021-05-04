@@ -1,0 +1,35 @@
+.SocialNetworksUsersList {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.SocialNetworksUsersItem {
+  border-bottom: 0.1rem solid #f3f3f3;
+  margin: 0;
+  padding: 1.7rem 0 1.9rem;
+  position: relative;
+}
+
+.SocialNetworksUsersItemName {
+  margin-bottom: 0.1rem;
+  font-size: 1.6rem;
+  line-height: (22 / 16);
+
+  color: #1e2f4b;
+}
+
+.SocialNetworksUsersItemStatus {
+  font-size: 1.4rem;
+  line-height: (20 / 14);
+
+  color: #8e96a4;
+}
+
+.SocialNetworksPagesDeleteButton {
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 100%;
+}

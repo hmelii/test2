@@ -1,0 +1,75 @@
+.Modal {
+  background: #fff;
+  padding: 6.5rem 4rem 4rem;
+  position: relative;
+
+  width: 62rem;
+  box-shadow: 0.1rem 0.1rem 0.3rem rgba(0, 0, 0, 0.3);
+  font-size: 1.5rem;
+  line-height: 1.3;
+
+  .ModalHeading {
+    margin-bottom: 5rem;
+    font-size: 4rem;
+    line-height: 1;
+  }
+}
+
+.ModalCloseButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
+  height: 3rem;
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+}
+
+.ModalCloseButtonIco {
+  max-width: 60%;
+  max-height: 60%;
+  opacity: 0.5;
+}
+
+.ModalField {
+  border: 0;
+  border-bottom: 1px solid #e4e5e9;
+  width: 100%;
+  padding: 1.3rem 0;
+  font-size: 1.5rem;
+}
+
+.ModalSubmitButton {
+  width: 100%;
+}
+
+.ModalFieldLine {
+  margin-bottom: 4rem;
+}
+
+.ModalFieldError {
+  color: red;
+}
+
+.ModalOverlay {
+  background: rgba(0, 0, 0, 0.3);
+  position: fixed;
+  z-index: 100;
+  overflow-y: scroll;
+  overflow-x: auto;
+  padding: 4rem;
+  display: grid;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.ModalOverlay:after {
+  content: '';
+  display: block;
+  height: 4rem;
+}

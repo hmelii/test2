@@ -1,0 +1,15 @@
+.NetworkIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.NetworkIconRounded {
+  border-radius: 50%;
+}
+
+.NetworkIconImg {
+  max-width: 55%;
+  max-height: 55%;
+}

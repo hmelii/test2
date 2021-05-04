@@ -1,0 +1,32 @@
+.Wrapper {
+  min-height: 100vh;
+  /*display: grid;
+
+  grid-template-areas:
+    'header'
+    'content';
+  grid-template-rows: 6rem 1fr;
+  grid-template-columns: 1fr;
+
+  &:has(.Side) {
+    grid-template-areas:
+      'header header'
+      'side content';
+    grid-template-rows: 6rem 1fr;
+    grid-template-columns: 28rem 1fr;
+  }*/
+}
+
+.Header {
+  //grid-area: header;
+  height: 6rem;
+}
+
+.Side {
+  flex: 0 0 28rem !important;
+  //grid-area: side;
+}
+
+.Content {
+  //grid-area: content;
+}

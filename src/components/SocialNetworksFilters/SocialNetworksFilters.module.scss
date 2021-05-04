@@ -1,0 +1,31 @@
+.SocialNetworksFilters {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: sticky;
+  top: 8.5rem;
+}
+
+.SocialNetworksFiltersItem {
+  margin: 0 0 3.3rem;
+  padding: 0;
+
+  font-size: 1.7rem;
+  line-height: (22 / 17);
+  color: #1e2f4b;
+}
+
+.SocialNetworksFiltersLink {
+  display: flex;
+  align-items: center;
+  color: inherit;
+  opacity: 0.5;
+}
+
+.SocialNetworksFiltersLinkActive {
+  opacity: 1;
+}
+
+.SocialNetworksFiltersText {
+  margin-left: 1.8rem;
+}

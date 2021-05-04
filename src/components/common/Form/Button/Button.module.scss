@@ -1,0 +1,65 @@
+.button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  box-sizing: border-box;
+
+  &.bordered {
+    border: 0.1rem solid #e3e5e9;
+    border-radius: 0.5rem;
+    background: #fff;
+    padding: 0.8rem 2.2rem;
+    height: 3.6rem;
+    font-size: 1.4rem;
+    line-height: 1;
+  }
+
+  &.simple {
+    background: #fff;
+    border: 0;
+    border-radius: 0;
+    height: auto;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 3rem;
+    min-height: 3rem;
+  }
+
+  &.shadowed {
+    background: #fff;
+    border: 0;
+    padding: 1.3rem 3.8rem;
+
+    height: 6.5rem;
+
+    box-shadow: 0.1rem 0.4rem 1.5rem rgba(30, 42, 53, 0.16);
+    border-radius: 1.2rem;
+
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+
+    color: #1e2f4b;
+  }
+
+  &.default {
+    background: #3576e4;
+    border-radius: 0.8rem;
+    border: 0.1rem solid #1862e0;
+    padding: 1.6rem;
+    color: #fff;
+    font-size: 1.3rem;
+    text-shadow: 0.1rem 0.1rem 0.2rem rgba(0, 0, 0, 0.2);
+    font-weight: 500;
+    text-align: center;
+  }
+}
+
+.buttonPrefix {
+  & + .buttonText {
+    margin-left: 1rem;
+  }
+}

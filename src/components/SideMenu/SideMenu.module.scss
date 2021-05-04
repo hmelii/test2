@@ -1,0 +1,75 @@
+.SideMenu {
+  position: sticky;
+  top: 7.5rem;
+}
+
+.SideMenuList {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.SideMenuItem {
+  margin: 0;
+  padding: 0;
+
+  font-size: 1.6rem;
+  line-height: (19 / 16);
+
+  color: #1e2f4b;
+}
+
+.SideMenuIco {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.4rem;
+  height: 4.5rem;
+  margin-right: 3rem;
+}
+
+.SideMenuLinkText {
+  display: block;
+}
+
+.SideMenuLink {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: inherit;
+  position: relative;
+  text-decoration: none;
+  padding-left: 3rem;
+
+  &:before {
+    content: '';
+    width: 0;
+    height: 0;
+    margin: auto;
+    position: absolute;
+    left: 1.8rem;
+    top: 0;
+    bottom: 0;
+    border-style: solid;
+    border-width: 0.5rem 0 0.5rem 0.5rem;
+    border-color: transparent transparent transparent #1e2f4b;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  &:hover {
+    &:before {
+      opacity: 1;
+    }
+  }
+}
+
+.SideMenuLinkActive {
+  background: #f1f6ff;
+  border-radius: 0 3rem 3rem 0;
+  color: #1573ef;
+
+  path {
+    fill: #1573ef;
+  }
+}

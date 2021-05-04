@@ -1,0 +1,46 @@
+.StatusAva {
+  background: #fff no-repeat 50%;
+  background-size: contain;
+  border: 2px solid;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  position: relative;
+
+  &.enabled {
+    border-color: #4ac200;
+
+    .StatusAvaIco {
+      background-color: #4ac200;
+    }
+  }
+
+  &.pending {
+    border-color: #ffbe00;
+
+    .StatusAvaIco {
+      background-color: #ffbe00;
+    }
+  }
+
+  &.error {
+    border-color: #ff4a31;
+
+    .StatusAvaIco {
+      background-color: #ff4a31;
+    }
+  }
+}
+
+.StatusAvaIco {
+  border: 3px solid #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.9rem;
+  height: 1.9rem;
+  position: absolute;
+  bottom: -0.1rem;
+  right: -0.6rem;
+}

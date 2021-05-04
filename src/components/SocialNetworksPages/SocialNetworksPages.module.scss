@@ -1,0 +1,27 @@
+.SocialNetworksPages {
+  border-top: 1px solid #f3f3f3;
+  padding-top: 7.5rem;
+}
+
+.SocialNetworksPagesHeaderRight {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.SocialNetworksPagesHeadingIco {
+  margin-right: 2.2rem;
+}
+
+.SocialNetworksPagesItem {
+  margin-top: 10.4rem;
+  position: relative;
+
+  &:first-child {
+    margin: 0;
+  }
+}
+
+.SocialNetworksPagesItemAnchor {
+  position: absolute;
+  top: -8.5rem;
+}
